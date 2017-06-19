@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans');
+
 body {
-	font-family: "Avenir Next", sans-serif;
+	font-family: 'Avenir Next', sans-serif;
 	text-align: center;
 }
 
 h1 {
-	color:pink;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
 }
 
 p {
-	font-style: italic;
-	color:lightblue;
+	color: black;
 }
 
 
@@ -33,11 +35,27 @@ main {
 	text-align: left;
 }
 
-header {
-	background-color: black;
-}
-
 nav a {
 	color: pink;
-	margin-right: 25px;
+	margin-right: 40px;
+	float: right;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
 }
+
+header {
+	background-color: black;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+footer a {
+	background-color: black;
+	padding: 10px;
+	color: pink;
+	text-decoration: none;
+}
+
+
