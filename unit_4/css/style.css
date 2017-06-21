@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans');
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+
+p {
+	color: black;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+#alaska {
+	align-content: left;
+}
+
+#vogue {
+	align-content: center;
+}
+
+#mexico {
+	align-content: right;
+}
+
+main {
+	text-align: left;
+}
+
+nav a {
+	color: pink;
+	margin-right: 40px;
+	float: right;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: black;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+footer a {
+	background-color: black;
+	padding: 10px;
+	color: pink;
+	text-decoration: none;
+}
+
+
