@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans|Montserrat:200i');
 
 body {
 	font-family: 'Avenir Next', sans-serif;
@@ -7,7 +7,9 @@ body {
 
 h1 {
 	color: white;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+
 }
 
 p {
