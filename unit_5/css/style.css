@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans|Montserrat:200i');
+* { margin:0; padding:0; box-sizing: border-box;}
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+p {
+	color: black;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+#alaska {
+	align-content: left;
+}
+
+#vogue {
+	align-content: center;
+}
+
+#mexico {
+	align-content: right;
+}
+
+main {
+	text-align: left;
+}
+
+nav a {
+	color: black;
+	margin-right: 40px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 40px;
+	background-color: #E8C66A;
+	width:960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #FFED74;
+	width: 100%;
+	text-align: left;
+}
+
+footer a {
+	background-color: #FF957E;
+	color: black;
+	text-decoration: none;
+	width:960px;
+	margin: 0 auto;
+}
+
+div,section {
+	background-color: #FFE2B8;
+	width:960px;
+	margin: 0 auto;
+}
+
+aside {
+	background-color: #FFC675;
+	width:960px;
+	margin: 0 auto;
+}
+
+article {
+	background-color: #E89C6C;
+	width:960px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	background-color: black;
+	width:960px;
+	margin: 0 auto;
+}
