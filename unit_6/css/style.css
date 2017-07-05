@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans|Quicksand')
+* { margin:0; padding:0; box-sizing: border-box;}
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+}
+
+p {
+	color: black;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: black;
+	margin-right: 40px;
+	float: right;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px;
+}
+
+a:hover {
+	background-color: pink;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+}
+
+footer a {
+	background-color: black;
+	width: 200%;
+	padding: 10px;
+	color: pink;
+	text-decoration: none;
+}
+
+section {
+	padding: 4em;
+}
+
+.column {
+	float: left;
+	width: 370px;
+	height: 500px;
+	padding: 10px 0;
+	margin: 0 0 0 0;
+}
+
+aside {
+	float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+
+
