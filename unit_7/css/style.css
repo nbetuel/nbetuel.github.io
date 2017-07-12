@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Quicksand')
+* { margin:0; padding:0; box-sizing: border-box;}
+
+h1 {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+}
+
+nav a {
+	color: white;
+	margin-right: 2em;
+	float: right;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	display: none;
+	font-size: 30px;
+}
+
+#mobile {
+	display: block;
+}
+
+nav:hover a {
+	display: block;
+}
+
+a:hover {
+	background-color: pink;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	text-align: left;
+	padding: 2em;
+}
+
+body {
+	font-family: 'Avenir Next', sans-serif;
+	text-align: center;
+}
+
+p {
+	color: black;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+section {
+	padding: 4em;
+}
+
+.column {
+	float: left;
+	width: 370px;
+	height: 500px;
+	padding: 2em 0;
+	margin: 0 0 0 0;
+}
+
+main {
+	float: left;
+	display: block;
+	background-color: pink;
+}
+
+#row {
+	float: left;
+	display: block;
+	width: 50%;
+	padding-top: 2em;
+	margin: 5em;
+	background-color: pink;
+}
+
+footer a {
+	background-color: black;
+	width: 100%;
+	padding: 2em;
+	color: white;
+	text-decoration: none;
+	float: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1600px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	body {
+		font-size: 18px;
+	}
+	main {
+		width: auto;
+		float:none;
+	}
+}
+
+
+
