@@ -3,8 +3,8 @@
 
 h1 {
 	color: white;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
 }
 
 nav a {
@@ -12,9 +12,9 @@ nav a {
 	margin-right: 2em;
 	float: right;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	display: none;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #mobile {
@@ -51,8 +51,7 @@ ul {
 }
 
 section {
-	max-width: 1600px;
-	margin: center;
+	max-width: 100%;
 }
 
 .column {
@@ -66,15 +65,12 @@ section {
 main {
 	display: inline-block;
 	display: block;
-	background-color: pink;
 }
 
-#row {
+.row {
 	display: inline-block;
-	max-width: 100%;
-	padding-top: 2em;
-	margin: 5em;
-	background-color: pink;
+	max-width: 50%;
+	padding: .7em;
 }
 
 footer a {
@@ -87,7 +83,7 @@ footer a {
 }
 
 #wrapper {
-	max-width: 1600px;
+	max-width: 1280px;
 }
 
 .clearfix:after {
@@ -99,15 +95,15 @@ footer a {
   height: 0;
  }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1000px) {
 	body {
-		font-size: 24px;
+		font-size: 14px;
 	}
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1280px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	main {
 		width: auto;
