@@ -10,7 +10,7 @@ h1 {
 nav a {
 	color: white;
 	margin-right: 2em;
-	float: right;
+	float: left;
 	text-decoration: none;
 	font-family: 'Quicksand', sans-serif;
 	display: none;
