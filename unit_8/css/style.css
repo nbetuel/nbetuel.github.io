@@ -107,14 +107,22 @@ img {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 	header{
 		width: auto;
 	}
 	footer{
 		width: auto;
 	}
+	.column{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
 }
+
+
 
 
 
